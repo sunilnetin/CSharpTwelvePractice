@@ -89,6 +89,14 @@ ia.PrintInlineArrays();
 
 #endregion InlineArray
 
+#region Alias Any Type
+AliasAnyType alias = new AliasAnyType();
+Console.WriteLine("--------Alias Any Type------");
+alias.PrintAliasAnyType();
+alias.PrintAliasAnyType2();
+alias.PrintAliasAnyType3(40);
+
+#endregion Alias Any Type
 
 
 #region  Async&Await
