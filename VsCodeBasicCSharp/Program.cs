@@ -98,6 +98,12 @@ alias.PrintAliasAnyType3(40);
 
 #endregion Alias Any Type
 
+#region Default Lambda Parameters
+DefaultLambdaParameters dlp = new DefaultLambdaParameters();
+Console.WriteLine("----------Default Lambda Parameters---------");
+dlp.PrintDefultLambda();
+dlp.PrintLambda2();
+#endregion Default Lambda Parameters
 
 #region  Async&Await
 public class Parson
